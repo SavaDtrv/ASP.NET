@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+      <person id_number="682593235" id_date_of_issue="2012-10-15"
+               id_expiry="2022-10-15" id_issued_by="МВР Стара Загора" signature="true">
+           <first_name>Мира</first_name>
+           <fathers_name>Георгиева</fathers_name>
+           <surname>Ангелива</surname>
+           <personal_NO>9409106533</personal_NO>
+           <sex>Жена</sex>
+           <eyes_color>Сини</eyes_color>
+           <height>165</height>
+           <date_of_birth>1994-09-10</date_of_birth>
+           <nationality>България</nationality>
+           <place_of_birth>Стара Загора</place_of_birth>
+           <residence>София</residence>
+           <more_person_info>
+               <phone>0892566511</phone>
+               <email>mira_angelova@gmail.com</email>
+           </more_person_info>
+           <close_person>
+               <phone>0892566423</phone>
+               <email>mira@gmail.com</email>
+           </close_person>
+           <times_checked>
+               <times>2</times>
+               <this_month>true</this_month>
+           </times_checked>
+           <criminal_acts isCriminal="false"></criminal_acts>
+       </person>
+</people>

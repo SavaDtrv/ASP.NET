@@ -1,0 +1,64 @@
+﻿<link href="~/Styles/FormStyle.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Form";
+}
+<h2></h2>
+<div class="form-style-10">
+    <h1>Форма за въвеждане на информация<span>Попълнете всички полета свързани с генерирането на XML и запазване в базата</span></h1>
+    <form id="asd" action="SaveData" method="post">
+        <div class="section"><span>1</span>Проверяван човек</div>
+        <div class="inner-wrap">
+            <label>Номер на лична карта <input type="text" name="id_number" /></label>
+            <label>Дата на издаване на лична карта <input type="date" name="id_date_of_issue" /></label>
+            <label>Дата на изтичане на личната карта <input type="date" name="id_expiry" /></label>
+            <label>Къде е издадена <input type="text" name="id_issued_by" /></label>
+            <label>Име на проверявания <input type="text" name="first_name" /></label>
+            <label>Презиме на проверявания <input type="text" name="fathers_name" /></label>
+            <label>Фамилия на проверявания <input type="text" name="surname" /></label>
+            <label>ЕГН на проверявания <input type="text" name="personal_NO" /></label>
+            <label>Пол на проверявания <input type="text" name="sex" /></label>
+            <label>Цвят на очите <input type="text" name="eyes_color" /></label>
+            <label>Колко е висок <input type="number" name="height" min="0" /></label>
+            <label>Дата на раждане <input type="date" name="date_of_birth" /></label>
+            <label>Националност <input type="text" name="nationality" /></label>
+            <label>Местораждане <input type="text" name="place_of_birth" /></label>
+            <label>Местоживеене <input type="text" name="residence" /></label>
+        </div>
+
+        <div class="section"><span>2</span>Допълнителни данни за проверявания</div>
+        <div class="inner-wrap">
+            <label>Телефонен номер на проверявания <input type="text" name="additional_phone" /></label>
+            <label>Email адрес на проверявания <input type="text" name="additional_email" /></label>
+        </div>
+
+        <div class="section"><span>2</span>Данни на близък на проверявания</div>
+        <div class="inner-wrap">
+            <label>Телефонен номер на близкия <input type="text" name="closeP_phone" /></label>
+            <label>Email адрес на близкия <input type="text" name="closeP_email" /></label>
+        </div>
+
+        <div class="section"><span>3</span>Колко пъти е проверяван</div>
+        <div class="inner-wrap">
+            <label>Брой проверки <input type="number" name="times" min="0" /></label>
+            <fieldset>
+                <legend>Този месец?</legend>
+                <div><label> <input type="checkbox" name="this_month" > Да</label></div>
+                <div><label> <input type="checkbox" name="this_month" > Не</label></div>
+            </fieldset>
+        </div>
+
+        <div class="section"><span>3</span>Криминално проявен/Криминални прояви</div>
+        <div class="inner-wrap">
+            <fieldset>
+                <legend>Криминално проявен?</legend>
+                <div><label> <input type="checkbox" name="isCriminal" > Да</label></div>
+                <div><label> <input type="checkbox" name="isCriminal" > Не</label></div>
+            </fieldset>
+            <label>Криминални прояви <input type="text" name="acts" /></label>
+        </div>
+        <div class="button-section">
+            <button class="btn" type="submit" onclick="$('#asd').serialize();">Въведи</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ASP_Sava_Dimitrov.Models.FileManagment>
+
+@{
+    ViewBag.Title = "Зареждане на информацията от XML файлове";
+}
+
+<h2>"Зареждане на информацията от XML файлове"</h2>
+
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>Номер</th>
+        <th>Име на файл</th>
+        <th>Статус</th>
+        <th>Зареден в БД</th>
+    </tr>
+    @foreach(var element in Model)
+    {
+    <tr>
+        <td>@element.number</td>
+        <td>@element.fileName</td>
+        @if (element.validXML)
+        {
+            <td><font color="green">@element.status</font></td>
+        }
+        else
+        {
+            <td><font color="red">@element.status</font></td>
+        }
+        @if (element.validLoad)
+        {
+            <td><font color="green">@element.dbStatus</font></td>
+        }
+        else
+        {
+
+            <td><font color="red">@element.dbStatus</font></td>
+        }
+    </tr>
+    }
+</table>

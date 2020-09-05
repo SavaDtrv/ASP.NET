@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+    <person id_number="682593239" id_date_of_issue="2016-08-27" id_expiry="2026-08-27" id_issued_by="МВР Варна" signature="true">
+        <first_name>Пенко</first_name>
+        <surname>Станков</surname>
+        <personal_NO>8807156535</personal_NO>
+        <sex>Мъж</sex>
+        <eyes_color>Сини</eyes_color>
+        <height>175</height>
+        <date_of_birth>1988-07-16</date_of_birth>
+        <nationality>България</nationality>
+        <residence>София</residence>
+        <times_checked>
+            <times>5</times>
+            <this_month>true</this_month>
+        </times_checked>
+    </person>
+</people>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+    <person id_number="682593238" id_date_of_issue="2016-08-25"
+            id_expiry="2026-08-25" id_issued_by="МВР Стара Загора" signature="true">
+        <first_name>Иван</first_name>
+        <surname>Петров</surname>
+        <personal_NO>8807156534</personal_NO>
+        <date_of_birth>1988-07-15</date_of_birth>
+        <more_person_info>
+            <phone>0895624173</phone>
+        </more_person_info>
+        <close_person>
+            <phone>0898562314</phone>
+        </close_person>
+        <criminal_acts isCriminal="false" />
+    </person>
+</people>

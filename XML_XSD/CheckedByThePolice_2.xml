@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+    <person id_number="682593236" id_date_of_issue="2018-07-05"
+            id_expiry="2028-07-05" id_issued_by="МВР Стара Загора" signature="true">
+        <first_name>Красимир</first_name>
+        <fathers_name>Радомиров</fathers_name>
+        <surname>Димитров</surname>
+        <personal_NO>0006036533</personal_NO>
+        <sex>Мъж</sex>
+        <eyes_color>Зелени</eyes_color>
+        <height>180</height>
+        <date_of_birth>2000-06-03</date_of_birth>
+        <nationality>България</nationality>
+        <place_of_birth>Ямбол</place_of_birth>
+        <residence>Пловдив</residence>
+        <more_person_info>
+            <phone>0892633311</phone>
+            <email>kras.dimitrov@gmail.com</email>
+        </more_person_info>
+        <close_person>
+            <phone>0892565656</phone>
+            <email>krasi@gmail.com</email>
+        </close_person>
+        <times_checked>
+            <times>0</times>
+            <this_month>false</this_month>
+        </times_checked>
+        <criminal_acts isCriminal="false"></criminal_acts>
+    </person>
+</people>

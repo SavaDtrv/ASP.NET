@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+	<person id_number="682593234" id_date_of_issue="2018-01-01"
+		   id_expiry="2028-01-01" id_issued_by="МВР Бургас" signature="true">
+	   <first_name>Дончо</first_name>
+	   <fathers_name>Станиславов</fathers_name>
+	   <surname>Дончев</surname>
+	   <personal_NO>0001018963</personal_NO>
+	   <sex>Мъж</sex>
+	   <eyes_color>Зелени</eyes_color>
+	   <height>175</height>
+	   <date_of_birth>2000-01-01</date_of_birth>
+	   <nationality>България</nationality>
+	   <place_of_birth>Бургас</place_of_birth>
+	   <residence>София</residence>
+	   <more_person_info>
+		   <phone>0894035689</phone>
+		   <email>doncho.d28@gmail.com</email>
+	   </more_person_info>
+	   <close_person>
+		   <phone>0895268935</phone>
+		   <email>zara.br@gmail.com</email>
+	   </close_person>
+	   <times_checked>
+		   <times>0</times>
+		   <this_month>false</this_month>
+	   </times_checked>
+	   <criminal_acts isCriminal="false"></criminal_acts>
+	</person>
+</people>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+	<person>
+	   <first_name>Петър</first_name>
+	   <fathers_name>Георгиев</fathers_name>
+	   <surname>Петров</surname>
+	   <personal_NO>9201016534</personal_NO>
+	   <sex>Мъж</sex>
+	   <eyes_color>Кафяви</eyes_color>
+	   <height>178</height>
+	   <date_of_birth>1990-11-24</date_of_birth>
+	   <nationality>България</nationality>
+	   <place_of_birth>Пловдив</place_of_birth>
+	   <residence>Пловдив</residence>
+	</person>
+</people>

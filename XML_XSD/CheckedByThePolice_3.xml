@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+    <person id_number="682593238" id_date_of_issue="2016-08-25"
+            id_expiry="2026-08-25" id_issued_by="МВР Стара Загора" signature="true">
+        <first_name>Мирослава</first_name>
+        <fathers_name>Радославова</fathers_name>
+        <surname>Петрова</surname>
+        <personal_NO>8807156533</personal_NO>
+        <sex>Жена</sex>
+        <eyes_color>Пъстри</eyes_color>
+        <height>170</height>
+        <date_of_birth>1988-07-15</date_of_birth>
+        <nationality>България</nationality>
+        <place_of_birth>Стара Загора</place_of_birth>
+        <residence>София</residence>
+        <more_person_info>
+            <email>mira.8807@abv.com</email>
+        </more_person_info>
+        <close_person>
+            <phone>0898562314</phone>
+            <email>parent@abv.com</email>
+        </close_person>
+        <times_checked>
+            <times>0</times>
+            <this_month>false</this_month>
+        </times_checked>
+        <criminal_acts isCriminal="true">
+            <acts>
+                Липса(изгубени/забравени) на документи за самоличност, в следствие на което оказва съпротива при задържане;
+            </acts>
+        </criminal_acts>
+    </person>
+</people>

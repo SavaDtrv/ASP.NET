@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+	<person id_number="682593234" id_date_of_issue="2008-12-15"
+		   id_expiry="2018-12-15" id_issued_by="МВР Пловдив" signature="true">
+	   <first_name>Петър</first_name>
+	   <fathers_name>Георгиев</fathers_name>
+	   <surname>Петров</surname>
+	   <personal_NO>9011246532</personal_NO>
+	   <sex>Мъж</sex>
+	   <eyes_color>Кафяви</eyes_color>
+	   <height>178</height>
+	   <date_of_birth>1990-11-24</date_of_birth>
+	   <nationality>България</nationality>
+	   <place_of_birth>Пловдив</place_of_birth>
+	   <residence>Пловдив</residence>
+	   <more_person_info>
+		   <phone>0892322265</phone>
+		   <email>petar-petrov@gmail.com</email>
+	   </more_person_info>
+	   <close_person>
+		   <phone>0892323266</phone>
+		   <email>petar@gmail.com</email>
+	   </close_person>
+	   <times_checked>
+		   <times>4</times>
+		   <this_month>true</this_month>
+	   </times_checked>
+	   <criminal_acts isCriminal="false"></criminal_acts>
+	</person>
+</people>

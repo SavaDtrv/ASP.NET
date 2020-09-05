@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<schema xmlns = "http://www.w3.org/2001/XMLSchema"
+        xmlns:mynspc = "http://example.com/XMLProject"
+        elementFormDefault = "qualified"
+        targetNamespace = "http://example.com/XMLProject"
+>
+<!--  -->
+    <complexType name="People">
+        <sequence>
+            <element name = "person" type = "mynspc:Person" minOccurs = "0" maxOccurs = "unbounded" />
+        </sequence>
+    </complexType>
+
+    <complexType name = "Person">
+        <sequence>
+            <group ref = "mynspc:Personal_data" />
+        </sequence>
+		<attributeGroup ref = "mynspc:ID_data" />
+    </complexType>
+
+    <complexType name="Criminal_acts">
+        <sequence>
+            <element name="acts" type="string" />
+        </sequence>
+		<attribute name="isCriminal" type="boolean" />
+    </complexType>
+
+    <complexType name = "Times_checked"> <!-- By the police -->
+        <sequence>
+            <element name = "times" type = "integer" minOccurs="0" />
+            <element name = "this_month" type = "boolean" minOccurs="0" />
+        </sequence>
+    </complexType>
+
+    <complexType name="Additional_person_info">
+        <sequence>
+            <element name = "phone" type = "string" minOccurs = "0" />
+            <element name = "email" type = "mynspc:Email" minOccurs = "0" />
+        </sequence>
+    </complexType>
+
+    <simpleType name = "Email">
+        <restriction base = "string">
+            <pattern value = ".+@.+" />
+        </restriction>
+    </simpleType>
+
+    <attributeGroup name = "ID_data">
+        <attribute name = "id_number" type = "string" use = "required" />
+        <attribute name = "id_date_of_issue" type = "date" use = "required" />
+        <attribute name = "id_expiry" type = "date" use = "required" />
+        <attribute name = "id_issued_by" type = "string" use = "required" />
+        <attribute name = "signature" type = "boolean" use = "required" />
+    </attributeGroup>
+
+    <group name = "Personal_data">
+        <sequence>
+            <!-- Data by ID -->
+            <element name = "first_name" type = "string" />
+            <element name = "fathers_name" type = "string" minOccurs="0" />
+            <element name = "surname" type = "string" />
+            <element name = "personal_NO" type = "string" />
+            <element name = "sex" type = "string" minOccurs="0" />
+            <element name = "eyes_color" type = "string" minOccurs="0" />
+            <element name = "height" type = "integer" minOccurs="0" />
+            <element name = "date_of_birth" type = "date" />
+            <element name = "nationality" type = "string" />
+            <element name = "place_of_birth" type = "string" />
+            <element name = "residence" type = "string" />
+            <!-- Additional info for the person -->
+            <element name="more_person_info" type="mynspc:Additional_person_info" minOccurs="0" />
+            <!-- Person to contact if something happened to you -->
+            <element name="close_person" type="mynspc:Additional_person_info" minOccurs="0" />
+            <!-- Times checked by the police this month -->
+            <element name = "times_checked" type = "mynspc:Times_checked" />
+
+            <element name = "criminal_acts" type = "mynspc:Criminal_acts" minOccurs="0" />
+        </sequence>
+    </group>
+
+    <element name="people" type="mynspc:People" />
+</schema>

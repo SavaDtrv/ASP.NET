@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<people>
+    <person id_number="682593237" id_date_of_issue="2013-07-25"
+            id_expiry="2023-07-05" id_issued_by="МВР Пловдив" signature="true">
+        <first_name>Георги</first_name>
+        <fathers_name>Радомиров</fathers_name>
+        <surname>Димитров</surname>
+        <personal_NO>8506036533</personal_NO>
+        <sex>Мъж</sex>
+        <eyes_color>Кафяви</eyes_color>
+        <height>175</height>
+        <date_of_birth>1985-06-03</date_of_birth>
+        <nationality>България</nationality>
+        <place_of_birth>Пловдив</place_of_birth>
+        <residence>София</residence>
+        <more_person_info>
+            <phone>0895869633</phone>
+        </more_person_info>
+        <close_person></close_person>
+        <times_checked>
+            <times>8</times>
+            <this_month>true</this_month>
+        </times_checked>
+        <criminal_acts isCriminal="true">
+            <acts>
+                Притежание на повече от половин грам канабис;
+                Дребни кражби, в продължение на дълго време;
+            </acts>
+        </criminal_acts>
+    </person>
+</people>
